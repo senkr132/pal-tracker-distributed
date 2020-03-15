@@ -1,4 +1,5 @@
 rootProject.name = "pal-tracker-distributed"
+include "platform-services:oauth-server"
 include "platform-services:eureka-server"
 include "applications:allocations-server"
 include "applications:backlog-server"
